@@ -1,4 +1,4 @@
-################################ Summary function for fitted FA models#################################################
+################################ Summary function for fitted Factor Analytic mixed models in AS-REML#################################################
 ###################This work © 2025 by Nick Fradgley, CSIRO is licensed under CC BY 4.0################################ 
 ##Some code has been adapted from Supplementary Material in Smith et al. 2021 (https://doi.org/10.3389/fpls.2021.737462)
 

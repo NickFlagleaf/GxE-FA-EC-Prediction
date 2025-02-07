@@ -15,7 +15,7 @@
 #'all.yr.DIAG.mods' is a list of fitted diagonal structured models from the single year analysis '3. Single year analysis' script
 #'all.yr.FA1.mods'  is a list of fitted FA1 structured models from the single year analysis '3. Single year analysis' script
 
-library(asreml)
+library(asreml) #Licence is required
 library(stringr)
 library(corpcor)
 library(data.table)

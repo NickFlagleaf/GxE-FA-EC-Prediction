@@ -10,6 +10,11 @@ FA.nxt.SVs<-function(old.vparams,
                      non.add.fa.str="\\:GID!",
                      new.add.FA.order,
                      new.nonadd.FA.order){
+  pckgs<-c("stringr")
+  missingpckgs<-pckgs[!pckgs%in%installed.packages()[,"Package"]]
+  if(length(missingpckgs)>0){print(paste("Install packages:",paste(missingpckgs,collapse = " ")))}
+  
+  
   rownames(new.default.SVs)<-new.default.SVs$Component
   new.default.SVs[names(old.vparams)[names(old.vparams)%in%rownames(new.default.SVs)],"Value"]<-old.vparams[names(old.vparams)%in%rownames(new.default.SVs)]#Replace var params with the same names
   old.fas<-old.vparams[grepl("\\!fa",names(old.vparams))] #Get just the FA params for the old model
