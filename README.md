@@ -1,2 +1,2 @@
 # GxE-FA-EC-Prediction
-Scripts for predicting yield GxE effects from Factor Analaytic mixed models and Environmental Covariates
+Scripts for fitting Factor Analytic mixed models for multi-environment trial analyses and predicting factor loadings from Environmental Covariates (ECs)
